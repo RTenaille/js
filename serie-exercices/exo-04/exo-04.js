@@ -1,2 +1,2 @@
-let nombre = (Math.random()*10).toFixed(0);
+let nombre = (Math.random()*100).toFixed(0);
 console.log(nombre);
