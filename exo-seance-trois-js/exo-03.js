@@ -12,6 +12,6 @@ do {
     etoile = "";
     for(i=1; i<=nombreEtoile; i++){
         etoile = etoile + "*";
+        console.log(etoile);
     }
-    console.log(etoile);
 }
