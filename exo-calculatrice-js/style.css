@@ -1,0 +1,34 @@
+*{
+    margin : 0px;
+    padding : 0px;
+}
+header{
+    margin-top : 2%;
+    margin-bottom : 2%;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+#ecran{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    width: 22vw;
+    height: 5vh;
+}
+body{
+    display : flex;
+    flex-direction: column;
+    padding-top: 5vh;
+    padding-left: 20vw;
+    background-color: rgb(58, 187, 144);
+}
+main{
+    display: flex;
+    flex-direction: column;
+}
+.rangeeTouche{
+    display: flex;
+}
+button{
+    margin : 2%;
+    padding : 1.5%;
+}
