@@ -105,7 +105,7 @@ function emoteNoblesse(){
    return "Le garde s’incline respectueusement.";
 }
 function emoteRoyal(){
-   return " Le garde, ainsi que toutes les personnes présentes s’inclinent profondément.";
+   return "Le garde, ainsi que toutes les personnes présentes s’inclinent profondément.";
 }
 /*******CLASSE*******/
 function getNombreClasse()
