@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Money money</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header></header>
+    <main>
+        <h2>Inscrivez votre montant et nous verrons ce que nous vous rendrons</h2>
+        <div id="ecranValeurSaisie"></div>
+        <div id="ecranValeurConvertie"></div>
+        <div id="choixDeDevisesEntree">
+            <legend>Choisissez la devise de départ</legend>
+
+            <div class="boutonsRadio">
+                <div>
+                    <input type="radio" class="deviseDepart" name="deviseDepart" value="euro" checked>
+                    <label for="euro">Euro</label>
+                </div>
+        
+                <div>
+                    <input type="radio" class="deviseDepart" name="deviseDepart" value="dollars">
+                    <label for="dollars">Dollars</label>
+                </div>
+        
+                <div>
+                    <input type="radio" class="deviseDepart" name="deviseDepart" value="couronne">
+                    <label for="Couronne">Couronne</label>
+                </div>
+            </div>
+        </div>
+        <div id="choixDeDevisesSortie">
+            <legend>Choisissez la devise de sortie</legend>
+
+            <div class="boutonsRadio">
+                <div>
+                    <input type="radio" class="deviseSortie" name="deviseSortie" value="euro" checked>
+                    <label for="euro">Euro</label>
+                </div>
+        
+                <div>
+                    <input type="radio" class="deviseSortie" name="deviseSortie" value="dollars">
+                    <label for="dollars">Dollars</label>
+                </div>
+        
+                <div>
+                    <input type="radio" class="deviseSortie" name="deviseSortie" value="couronne">
+                    <label for="Couronne">Couronne</label>
+                </div>
+            </div>
+
+        </div>
+        <div id="clavier">
+            <button class="boutonValeur" value="1">1</button>
+            <button class="boutonValeur" value="2">2</button>
+            <button class="boutonValeur" value="3">3</button>
+            <button class="boutonValeur" value="4">4</button>
+            <button class="boutonValeur" value="5">5</button>
+            <button class="boutonValeur" value="6">6</button>
+            <button class="boutonValeur" value="7">7</button>
+            <button class="boutonValeur" value="8">8</button>
+            <button class="boutonValeur" value="9">9</button>
+            <button class="boutonValeur" value="0">0</button>
+            <button class="boutonValeur" value=".">.</button>
+            <button id="boutonEgal" value="=">=</button>
+            <button id="boutonEffacer" value="">DEL</button>
+            <button id="boutonEffacerTout" value="">DALL</button>
+
+        </div>
+    </main>
+    <footer></footer>
+    
+</body>
+</html>
