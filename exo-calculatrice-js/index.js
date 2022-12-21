@@ -1,21 +1,21 @@
-let tampon = "";
-function prendreValeurDansTampon (){
-     tampon = tampon + document.querySelector('chiffre').value;
+let boutonsOperateur = document.querySelectorAll('.operateur');
+let boutonsChiffre = document.querySelectorAll('.chiffre');
+let boutonEgal = document.querySelector('#egal');
+let boutonClear = document.querySelector('#effacerTout');
+let boutonClearLast = document.querySelector('#effacer');
 
-    }
-    
-function prendreOperateurDansTampon (){
-    tampon = tampon + document.querySelector('operateur').value;
+let ecran = document.querySelector('#ecran');
+let tampon = document.querySelector('#tampon');
 
-    
-    }
-
-
-
-/*******VARIABLES****/
-let appuyerBoutonChiffre = document.querySelector('.chiffre').value;
-appuyerBoutonChiffre.addEventListener('click', prendreValeurDansTampon);
-
-let appuyerBoutonOperateur = document.querySelector('.operateur').value;
-appuyerBoutonOperateur.addEventListener('click', prendreOperateurDansTampon);
+boutonsOperateur.forEach(boutonOperateur=>{
+    boutonOperateur.addEventListener('click',ajouterOperation);
+}
+);
+boutonsChiffre.forEach(boutonChiffre=>{
+    boutonChiffre.addEventListener('click',ajouterChiffre);
+}
+);
+boutonEgal.addEventListener('click',evaluerExpression);
+boutonClear.addEventListener('click',effacerExpression);
+boutonClearLast.addEventListener('click',effacerLastExpression);
 
