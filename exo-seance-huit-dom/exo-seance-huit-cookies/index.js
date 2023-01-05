@@ -5,9 +5,7 @@ let boutonClair = document.querySelector("#btnLight");
 boutonClair.addEventListener("click", remettreModeClair);
 boutonClair.style.display= "none";
 
-let darkCookie = document.cookie.set(
-    
-)
+document.cookie= "name=darkmode;"
 console.log(document.cookie);
 
 let darkModeOn = false;
