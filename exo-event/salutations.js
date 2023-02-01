@@ -3,7 +3,7 @@
     let emoteRaciale = 0;
     let emoteRang = 0;
     let classes = 0;
-    
+   
     function saluerSansAlertes(event){
     event.preventDefault();
     // on affiche tout par défaut, et il n'y a pas d'erreur !
